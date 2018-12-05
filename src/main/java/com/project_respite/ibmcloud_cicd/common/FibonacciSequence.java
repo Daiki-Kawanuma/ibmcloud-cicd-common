@@ -10,6 +10,8 @@ public class FibonacciSequence {
     private static final BigInteger ONE = BigInteger.ONE;
     private static final BigInteger TWO = ONE.add(ONE);
 
+    private FibonacciSequence(){}
+
     private static final Map<BigInteger, BigInteger> FIBONACCI_MAP = new HashMap<>();
     static {
         FIBONACCI_MAP.put(ZERO, ZERO);
